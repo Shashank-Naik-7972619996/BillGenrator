@@ -1,0 +1,1939 @@
+<html>
+<head>
+<title>TestNG:  WebPaystubForm</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>WebPaystubForm</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/32/1</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 30 09:12:21 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>4522 seconds (4522882 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueDaily()'><b>verifySalaryTotalValueDaily</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 24. Verify the Salary Total value With payment type as 'Salary'. and How often you paied is set to 'Daily'</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [200.00] but found [0.04],
+	Salary total calculations for &apos;Daily&apos; are getting wrong. expected [200.00] but found [0.04]
+	at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueDaily(BillGen2022.java:5304)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace38430979", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace38430979'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [200.00] but found [0.04],
+	Salary total calculations for &apos;Daily&apos; are getting wrong. expected [200.00] but found [0.04]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueDaily(BillGen2022.java:5304)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInAnnually()'><b>verifyPayPeriodDurationInAnnually</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 41. Verify Pay period durations when 'How often are you paid?' is set to 'Annually' </td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [12/31/2023] but found [01/01/2023],
+	expected [12/31/2023] but found [01/01/2023]
+	at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInAnnually(BillGen2022.java:5678)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace66452732", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace66452732'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [12/31/2023] but found [01/01/2023],
+	expected [12/31/2023] but found [01/01/2023]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInAnnually(BillGen2022.java:5678)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.enterAllInputs()'><b>enterAllInputs</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 1. Enter all the inputs in paystub form and observe the Templates1 shows all the info entered properly. in first paystub</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [TEST COMPANY NAME
+1-234-567-8901
+TEST COMPANY STREET ADDRESS1 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANY STREET ADDRESS2 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANYCITY,NM,65432] but found [TEST COMPANY NAME
+1-234-567-8901
+TEST COMPANY STREET ADDRESS1 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANY STREET ADDRESS2 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANYCITY,NM,65432]
+	at WebApp.BillGenrator.BillGen2022.enterAllInputs(BillGen2022.java:120)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1045544666", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1045544666'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [TEST COMPANY NAME
+1-234-567-8901
+TEST COMPANY STREET ADDRESS1 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANY STREET ADDRESS2 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANYCITY,NM,65432] but found [TEST COMPANY NAME
+1-234-567-8901
+TEST COMPANY STREET ADDRESS1 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANY STREET ADDRESS2 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANYCITY,NM,65432]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.enterAllInputs(BillGen2022.java:120)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>71</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueBiWeekly()'><b>verifySalaryTotalValueBiWeekly</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 26. Verify the Salary Total value With payment type as 'Salary'. and How often you paied is set to 'Bi-Weekly (ex: every other Wednesday)'</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [7.69] but found [0.38],
+	Salary total calculations for &apos;Bi-Weekly&apos; are getting wrong. expected [7.69] but found [0.38]
+	at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueBiWeekly(BillGen2022.java:5338)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace270256720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace270256720'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [7.69] but found [0.38],
+	Salary total calculations for &apos;Bi-Weekly&apos; are getting wrong. expected [7.69] but found [0.38]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueBiWeekly(BillGen2022.java:5338)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred()'><b>verifyLoginFunctionalityWithInvalidCred</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 45 Verify validation of the login module on providing invalid inputs for the login<br>Parameters: username1@gmailcom, 123</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1361921058", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1361921058'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>130</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred()'><b>verifyLoginFunctionalityWithInvalidCred</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 45 Verify validation of the login module on providing invalid inputs for the login<br>Parameters: @test.com, 1234</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace459813671", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace459813671'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>130</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueAnnually()'><b>verifySalaryTotalValueAnnually</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 30. Verify the Salary Total value With payment type as 'Salary'. and How often you paied is set to 'Annually'</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [200.00] but found [10.00],
+	Salary total calculations for &apos;Annually&apos; are getting wrong. expected [200.00] but found [10.00]
+	at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueAnnually(BillGen2022.java:5406)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace866471477", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace866471477'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [200.00] but found [10.00],
+	Salary total calculations for &apos;Annually&apos; are getting wrong. expected [200.00] but found [10.00]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueAnnually(BillGen2022.java:5406)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyPaystubTemplateWithLogin()'><b>verifyPaystubTemplateWithLogin</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 46 Verify the template created retrives all the data saved when user is allready logged in.</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyPaystubTemplateWithLogin(BillGen2022.java:5938)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2110307675", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2110307675'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyPaystubTemplateWithLogin(BillGen2022.java:5938)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>130</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInBiWeekly()'><b>verifyPayPeriodDurationInBiWeekly</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 37. Verify Pay period durations when 'How often are you paid?' is set to 'Bi-Weekly' </td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [12/18/2022] but found [null],
+	expected [12/31/2022] but found [null],
+	expected [12/31/2022] but found [null]
+	at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInBiWeekly(BillGen2022.java:5599)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace999820481", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace999820481'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [12/18/2022] but found [null],
+	expected [12/31/2022] but found [null],
+	expected [12/31/2022] but found [null]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInBiWeekly(BillGen2022.java:5599)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred()'><b>verifyLoginFunctionalityWithInvalidCred</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 45 Verify validation of the login module on providing invalid inputs for the login<br>Parameters: username1@@gmailcom, 123</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace729474976", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace729474976'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>130</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueWeekly()'><b>verifySalaryTotalValueWeekly</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 25. Verify the Salary Total value With payment type as 'Salary'. and How often you paied is set to 'Weekly (ex: every Friday)'</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [3.85] but found [0.19],
+	Salary total calculations for &apos;Weekly&apos; are getting wrong. expected [3.85] but found [0.19]
+	at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueWeekly(BillGen2022.java:5321)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace361676270", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace361676270'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [3.85] but found [0.19],
+	Salary total calculations for &apos;Weekly&apos; are getting wrong. expected [3.85] but found [0.19]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueWeekly(BillGen2022.java:5321)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyPdfData()'><b>verifyPdfData</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 42. Verify the pdf file downloaded with the data added.</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Number of pages for Paystub 1 expected [1] but found [2],
+	Number of pages for Paystub 2 expected [1] but found [2],
+	Employer name is not mentioned in pdf expected [true] but found [false],
+	EmployerTelephoneNumber is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployerStreetAddress1 is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployerStreetAddress2 is not mentioned in pdf expected [true] but found [false],
+	PaystubCompanyCity is not mentioned in pdf expected [true] but found [false],
+	PaystubCompanyState is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployerName is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployeeID is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployeeTelephoneNumber is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployeeAddress1 is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployeeAddress2 is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployeeCity is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployeeState is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployeeMaritalStatus is not mentioned in pdf expected [true] but found [false]
+	at WebApp.BillGenrator.BillGen2022.verifyPdfData(BillGen2022.java:5815)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1498727286", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1498727286'><pre>java.lang.AssertionError: The following asserts failed:
+	Number of pages for Paystub 1 expected [1] but found [2],
+	Number of pages for Paystub 2 expected [1] but found [2],
+	Employer name is not mentioned in pdf expected [true] but found [false],
+	EmployerTelephoneNumber is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployerStreetAddress1 is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployerStreetAddress2 is not mentioned in pdf expected [true] but found [false],
+	PaystubCompanyCity is not mentioned in pdf expected [true] but found [false],
+	PaystubCompanyState is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployerName is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployeeID is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployeeTelephoneNumber is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployeeAddress1 is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployeeAddress2 is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployeeCity is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployeeState is not mentioned in pdf expected [true] but found [false],
+	PaystubEmployeeMaritalStatus is not mentioned in pdf expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifyPdfData(BillGen2022.java:5815)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>164</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyPaystubCalculationsOnenteringPreviousYTDCalculations()'><b>verifyPaystubCalculationsOnenteringPreviousYTDCalculations</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 32. Verify Paystub Calculations On entering Previous YTD Calculations</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [4,000.00] but found [1,600.00],
+	expected [400.00] but found [0.00],
+	expected [200.00] but found [0.00],
+	expected [300.00] but found [0.00],
+	expected [500.00] but found [0.00],
+	expected [600.00] but found [0.00],
+	expected [700.00] but found [0.00],
+	expected [4,000.00] but found [4,800.00],
+	expected [400.00] but found [0.00],
+	expected [200.00] but found [0.00],
+	expected [300.00] but found [0.00],
+	expected [500.00] but found [0.00],
+	expected [600.00] but found [0.00],
+	expected [700.00] but found [0.00]
+	at WebApp.BillGenrator.BillGen2022.verifyPaystubCalculationsOnenteringPreviousYTDCalculations(BillGen2022.java:5465)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace404376511", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace404376511'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [4,000.00] but found [1,600.00],
+	expected [400.00] but found [0.00],
+	expected [200.00] but found [0.00],
+	expected [300.00] but found [0.00],
+	expected [500.00] but found [0.00],
+	expected [600.00] but found [0.00],
+	expected [700.00] but found [0.00],
+	expected [4,000.00] but found [4,800.00],
+	expected [400.00] but found [0.00],
+	expected [200.00] but found [0.00],
+	expected [300.00] but found [0.00],
+	expected [500.00] but found [0.00],
+	expected [600.00] but found [0.00],
+	expected [700.00] but found [0.00]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifyPaystubCalculationsOnenteringPreviousYTDCalculations(BillGen2022.java:5465)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred()'><b>verifyLoginFunctionalityWithInvalidCred</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 45 Verify validation of the login module on providing invalid inputs for the login<br>Parameters: shashank.marquee@gmail.com, 123</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace659849393", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace659849393'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>130</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurations()'><b>verifyPayPeriodDurations</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 35. Verify Pay period durations when 'How often are you paid?' is set to 'Daily' </td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [12/31/2022] but found [null],
+	expected [12/31/2022] but found [null],
+	expected [12/31/2022] but found [null],
+	expected [02/14/2023] but found [null],
+	expected [02/14/2023] but found [null],
+	expected [02/14/2023] but found [null]
+	at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurations(BillGen2022.java:5555)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace747347949", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace747347949'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [12/31/2022] but found [null],
+	expected [12/31/2022] but found [null],
+	expected [12/31/2022] but found [null],
+	expected [02/14/2023] but found [null],
+	expected [02/14/2023] but found [null],
+	expected [02/14/2023] but found [null]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurations(BillGen2022.java:5555)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInQuarterly()'><b>verifyPayPeriodDurationInQuarterly</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 39. Verify Pay period durations when 'How often are you paid?' is set to 'Quarterly' </td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [10/02/2022] but found [null],
+	expected [01/01/2023] but found [null],
+	expected [01/01/2023] but found [null]
+	at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInQuarterly(BillGen2022.java:5643)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace859855271", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace859855271'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [10/02/2022] but found [null],
+	expected [01/01/2023] but found [null],
+	expected [01/01/2023] but found [null]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInQuarterly(BillGen2022.java:5643)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyDeductionTotalAndDeductionYTDTotalOnRemovingCustomEarnings()'><b>verifyDeductionTotalAndDeductionYTDTotalOnRemovingCustomEarnings</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 44. Verify gross DEDUCTION TOTAL and Deduction YTDTotal calculations on removing the custom deductions</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	The custom deduction 2 did not removed expected [true] but found [false],
+	Deductions total value is wrong. expected [37.43] but found [60.76]
+	at WebApp.BillGenrator.BillGen2022.verifyDeductionTotalAndDeductionYTDTotalOnRemovingCustomEarnings(BillGen2022.java:5883)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace268259162", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace268259162'><pre>java.lang.AssertionError: The following asserts failed:
+	The custom deduction 2 did not removed expected [true] but found [false],
+	Deductions total value is wrong. expected [37.43] but found [60.76]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifyDeductionTotalAndDeductionYTDTotalOnRemovingCustomEarnings(BillGen2022.java:5883)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>104</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred()'><b>verifyLoginFunctionalityWithInvalidCred</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 45 Verify validation of the login module on providing invalid inputs for the login<br>Parameters:  ,  </td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1274711325", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1274711325'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>130</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.VerifySDITaxCalculationsonTemplate1()'><b>VerifySDITaxCalculationsonTemplate1</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 13. Verify SDI tax calculations with martial status as 'Single' for the state= 'California' with ytdtotal as '400','800','8000','80000'<br>Parameters: Hawaii</td>
+<td><div><pre>java.lang.AssertionError: The SDI Values are wrong for the state Hawaii
+	expected [960.00] but found [22.04]
+	at WebApp.BillGenrator.BillGen2022.VerifySDITaxCalculationsonTemplate1(BillGen2022.java:4416)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace197836131", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace197836131'><pre>java.lang.AssertionError: The SDI Values are wrong for the state Hawaii
+	expected [960.00] but found [22.04]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at WebApp.BillGenrator.BillGen2022.VerifySDITaxCalculationsonTemplate1(BillGen2022.java:4416)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred()'><b>verifyLoginFunctionalityWithInvalidCred</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 45 Verify validation of the login module on providing invalid inputs for the login<br>Parameters: tes t@t.com, 12345 6</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1649373798", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1649373798'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>130</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueMonthly()'><b>verifySalaryTotalValueMonthly</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 23. Verify the Salary Total value With payment type as 'Salary'. and How often you paied is set to 'Monthly'</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [16.67] but found [0.83],
+	Salary total calculations are getting wrong. expected [16.67] but found [0.83]
+	at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueMonthly(BillGen2022.java:5287)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace635488908", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace635488908'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [16.67] but found [0.83],
+	Salary total calculations are getting wrong. expected [16.67] but found [0.83]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueMonthly(BillGen2022.java:5287)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueSemiAnnually()'><b>verifySalaryTotalValueSemiAnnually</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 29. Verify the Salary Total value With payment type as 'Salary'. and How often you paied is set to 'Semi-Annually'</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [100.00] but found [5.00],
+	Salary total calculations for &apos;Semi-Annually&apos; are getting wrong. expected [100.00] but found [5.00],
+	expected [12500.00] but found [25000.00],
+	Salary total calculations for &apos;Semi-Annually&apos; are getting wrong. expected [12500.00] but found [25000.00]
+	at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueSemiAnnually(BillGen2022.java:5389)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace851928758", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace851928758'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [100.00] but found [5.00],
+	Salary total calculations for &apos;Semi-Annually&apos; are getting wrong. expected [100.00] but found [5.00],
+	expected [12500.00] but found [25000.00],
+	Salary total calculations for &apos;Semi-Annually&apos; are getting wrong. expected [12500.00] but found [25000.00]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueSemiAnnually(BillGen2022.java:5389)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyPayPeriodDuration()'><b>verifyPayPeriodDuration</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 36. Verify Pay period durations when 'How often are you paid?' is set to 'Weekly' </td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [12/25/2022] but found [null],
+	expected [12/31/2022] but found [null],
+	expected [12/31/2022] but found [null]
+	at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDuration(BillGen2022.java:5577)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1687232613", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1687232613'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [12/25/2022] but found [null],
+	expected [12/31/2022] but found [null],
+	expected [12/31/2022] but found [null]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDuration(BillGen2022.java:5577)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyGmail()'><b>verifyGmail</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 48 Verify the saved template data from acceccing the gmail link</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	How many pay periods have you worked? is not displayed. expected [true] but found [false],
+	test name ytd total in paystub 2 is not as per the template saved. expected [528.00] but found [1,254.00],
+	Gross Pay total in paystub 2 is not as per the template saved. expected [389,946.20] but found [390,144.20],
+	Gross Pay YTD total in paystub 2 is not as per the template saved. expected [389,946.20] but found [390,144.20],
+	FICA - Social Security total in paystub 2 is not as per the template saved. expected [9,114.00] but found [0.00],
+	SDI total in paystub 2 is not as per the template saved. expected [157.45] but found [0.00],
+	SUI total in paystub 2 is not as per the template saved. expected [128.14] but found [0.00],
+	FLI total in paystub 2 is not as per the template saved. expected [98.80] but found [0.00],
+	Workforce Development total in paystub 2 is not as per the template saved. expected [14.24] but found [0.00],
+	Federal Tax ytd total in paystub 2 is not as per the template saved. expected [141,278.90] but found [282,631.06],
+	State Tax ytd total in paystub 2 is not as per the template saved. expected [40,579.12] but found [81,179.53],
+	Custom deduction ytd total in paystub 2 is not as per the template saved. expected [200.00] but found [400.00],
+	deductions total in paystub 2 is not as per the template saved. expected [200,665.15] but found [200,764.36],
+	ytd_deductions total in paystub 2 is not as per the template saved. expected [200,665.15] but found [200,764.36],
+	net_pay total in paystub 2 is not as per the template saved. expected [189,281.05] but found [189,379.84],
+	net_pay ytd total in paystub 2 is not as per the template saved. expected [189,281.05] but found [189,379.84]
+	at WebApp.BillGenrator.BillGen2022.verifyGmail(BillGen2022.java:7147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1974169119", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1974169119'><pre>java.lang.AssertionError: The following asserts failed:
+	How many pay periods have you worked? is not displayed. expected [true] but found [false],
+	test name ytd total in paystub 2 is not as per the template saved. expected [528.00] but found [1,254.00],
+	Gross Pay total in paystub 2 is not as per the template saved. expected [389,946.20] but found [390,144.20],
+	Gross Pay YTD total in paystub 2 is not as per the template saved. expected [389,946.20] but found [390,144.20],
+	FICA - Social Security total in paystub 2 is not as per the template saved. expected [9,114.00] but found [0.00],
+	SDI total in paystub 2 is not as per the template saved. expected [157.45] but found [0.00],
+	SUI total in paystub 2 is not as per the template saved. expected [128.14] but found [0.00],
+	FLI total in paystub 2 is not as per the template saved. expected [98.80] but found [0.00],
+	Workforce Development total in paystub 2 is not as per the template saved. expected [14.24] but found [0.00],
+	Federal Tax ytd total in paystub 2 is not as per the template saved. expected [141,278.90] but found [282,631.06],
+	State Tax ytd total in paystub 2 is not as per the template saved. expected [40,579.12] but found [81,179.53],
+	Custom deduction ytd total in paystub 2 is not as per the template saved. expected [200.00] but found [400.00],
+	deductions total in paystub 2 is not as per the template saved. expected [200,665.15] but found [200,764.36],
+	ytd_deductions total in paystub 2 is not as per the template saved. expected [200,665.15] but found [200,764.36],
+	net_pay total in paystub 2 is not as per the template saved. expected [189,281.05] but found [189,379.84],
+	net_pay ytd total in paystub 2 is not as per the template saved. expected [189,281.05] but found [189,379.84]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifyGmail(BillGen2022.java:7147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>67</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInSemiAnnually()'><b>verifyPayPeriodDurationInSemiAnnually</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 40. Verify Pay period durations when 'How often are you paid?' is set to 'Semi-Annually' </td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [07/02/2022] but found [07/01/2022],
+	expected [01/01/2023] but found [12/31/2022],
+	expected [01/01/2023] but found [12/31/2022]
+	at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInSemiAnnually(BillGen2022.java:5666)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1765940663", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1765940663'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [07/02/2022] but found [07/01/2022],
+	expected [01/01/2023] but found [12/31/2022],
+	expected [01/01/2023] but found [12/31/2022]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInSemiAnnually(BillGen2022.java:5666)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>8</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred()'><b>verifyLoginFunctionalityWithInvalidCred</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 45 Verify validation of the login module on providing invalid inputs for the login<br>Parameters: tester.marqueetest@gmail.com, Marquee123456</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1491355484", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1491355484'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>130</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyForgotPasswordFunctionality()'><b>verifyForgotPasswordFunctionality</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 49 Verify the forgot password functionality with valid input</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyForgotPasswordFunctionality(BillGen2022.java:7156)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1170418747", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1170418747'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyForgotPasswordFunctionality(BillGen2022.java:7156)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>130</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred()'><b>verifyLoginFunctionalityWithInvalidCred</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 45 Verify validation of the login module on providing invalid inputs for the login<br>Parameters: username2gmail.com, 12345</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2058202198", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2058202198'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>130</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred()'><b>verifyLoginFunctionalityWithInvalidCred</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 45 Verify validation of the login module on providing invalid inputs for the login<br>Parameters: , </td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Login successfull with invalid cred. expected [false] but found [true]
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5903)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace48090784", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace48090784'><pre>java.lang.AssertionError: The following asserts failed:
+	Login successfull with invalid cred. expected [false] but found [true]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5903)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>255</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueQuarterly()'><b>verifySalaryTotalValueQuarterly</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 28. Verify the Salary Total value With payment type as 'Salary'. and How often you paied is set to 'Quarterly'</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [50.00] but found [10.00],
+	Salary total calculations for &apos;Quarterly&apos; are getting wrong. expected [50.00] but found [10.00],
+	expected [6250.00] but found [25000.00],
+	Salary total calculations for &apos;Quarterly&apos; are getting wrong. expected [6250.00] but found [25000.00]
+	at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueQuarterly(BillGen2022.java:5372)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace991813603", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace991813603'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [50.00] but found [10.00],
+	Salary total calculations for &apos;Quarterly&apos; are getting wrong. expected [50.00] but found [10.00],
+	expected [6250.00] but found [25000.00],
+	Salary total calculations for &apos;Quarterly&apos; are getting wrong. expected [6250.00] but found [25000.00]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueQuarterly(BillGen2022.java:5372)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred()'><b>verifyLoginFunctionalityWithInvalidCred</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 45 Verify validation of the login module on providing invalid inputs for the login<br>Parameters: test@com., 123</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1076561941", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1076561941'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1e2386e3306bb47d0cdef6dde24dfbe2)] -&gt; xpath: //*[text()=&apos;Login&apos;]] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-6KOFRV4&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55775/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e2386e3306bb47d0cdef6dde24dfbe2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.Login(PaystubWebFormPage.java:1418)
+	at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5891)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>130</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyGrossPayTotalAndYTDTotalOnRemovingCustomEarnings()'><b>verifyGrossPayTotalAndYTDTotalOnRemovingCustomEarnings</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 43. Verify gross payTotal and YTDTotal calculations on removing the custom earnings.</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Custom earning total 1 is wrong expected [864.00] but found [1,152.00],
+	Custom earning total 1 is wrong expected [26,760.00] but found [35,680.00],
+	Gross Pay YTD Total value is wrong. expected [425,172.97] but found [434,780.97],
+	Gross Pay YTD Total value is wrong. expected [424,308.97] but found [433,628.97],
+	The Custom earning did not removed second time expected [true] but found [false],
+	Gross Pay YTD Total value is wrong. expected [424,308.97] but found [433,628.97]
+	at WebApp.BillGenrator.BillGen2022.verifyGrossPayTotalAndYTDTotalOnRemovingCustomEarnings(BillGen2022.java:5862)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1724846768", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1724846768'><pre>java.lang.AssertionError: The following asserts failed:
+	Custom earning total 1 is wrong expected [864.00] but found [1,152.00],
+	Custom earning total 1 is wrong expected [26,760.00] but found [35,680.00],
+	Gross Pay YTD Total value is wrong. expected [425,172.97] but found [434,780.97],
+	Gross Pay YTD Total value is wrong. expected [424,308.97] but found [433,628.97],
+	The Custom earning did not removed second time expected [true] but found [false],
+	Gross Pay YTD Total value is wrong. expected [424,308.97] but found [433,628.97]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at WebApp.BillGenrator.BillGen2022.verifyGrossPayTotalAndYTDTotalOnRemovingCustomEarnings(BillGen2022.java:5862)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>128</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.Verify_SUI_Tax_Calculations_on_Template1_with_State()'><b>Verify_SUI_Tax_Calculations_on_Template1_with_State</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 14. Verify SUI tax calculations with martial status as 'Single' with ytdtotal as '400','800','8000','80000'<br>Parameters: Pennsylvania</td>
+<td></td>
+<td>9</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.calculateWorkforceDevelopment2()'><b>calculateWorkforceDevelopment2</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 18. Verify Workforce Development tax when Gross Pay YTD total is equal to 33500</td>
+<td></td>
+<td>11</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.VerifySDITaxCalculationsonTemplate1()'><b>VerifySDITaxCalculationsonTemplate1</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 13. Verify SDI tax calculations with martial status as 'Single' for the state= 'California' with ytdtotal as '400','800','8000','80000'<br>Parameters: New York</td>
+<td></td>
+<td>7</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyFederalTaxWithAllExemptions()'><b>verifyFederalTaxWithAllExemptions</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 8. Verify Federal Tax calculations for all exemptions with maratial status as 'Single' and 'Married' and year'2022</td>
+<td></td>
+<td>149</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyPaystubPayPeriodDurations()'><b>verifyPaystubPayPeriodDurations</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 34. Verify Pay period durations when 'How often are you paid?' is set to 'Monthly' </td>
+<td></td>
+<td>8</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.VerifyFederalTaxCalculationsonTemplate1()'><b>VerifyFederalTaxCalculationsonTemplate1</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 6. Verify federal tax calculations with martial status as 'Single' year=2022</td>
+<td></td>
+<td>13</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyPaystubTotalDeductions()'><b>verifyPaystubTotalDeductions</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 33. Verify Total calculations of all the deductions with single paystub</td>
+<td></td>
+<td>13</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyFicaSocialSecurityCalculations()'><b>verifyFicaSocialSecurityCalculations</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 5. Verify FICA-Social-Security Calculations when social is greater than 9114 for the year 2022 on all preview page.</td>
+<td></td>
+<td>11</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.VerifySDITaxCalculationsonTemplate1()'><b>VerifySDITaxCalculationsonTemplate1</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 13. Verify SDI tax calculations with martial status as 'Single' for the state= 'California' with ytdtotal as '400','800','8000','80000'<br>Parameters: California</td>
+<td></td>
+<td>13</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.VerifyStateTaxCalculationsWithAllStatesWithSingleOnTemplate1()'><b>VerifyStateTaxCalculationsWithAllStatesWithSingleOnTemplate1</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 10. Verify State tax calculations for all states with martial status as 'Single' with ytdtotal as '800' and year is 2022</td>
+<td></td>
+<td>392</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.VerifyStateTaxCalculationsWithAllStatesOnTemplate1()'><b>VerifyStateTaxCalculationsWithAllStatesOnTemplate1</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 9. Verify State tax calculations for all states with martial status as 'Married' with ytdtotal as '800' and year is 2022</td>
+<td></td>
+<td>395</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyGrossPayTotalInPreviousYTDCalculations()'><b>verifyGrossPayTotalInPreviousYTDCalculations</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 31. Verify 'Enter in previous YTD calculations?' gross paytotal value</td>
+<td></td>
+<td>10</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyContractorTax()'><b>verifyContractorTax</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 21. Verify Contractor does not have any tax deduction</td>
+<td></td>
+<td>2</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyFICASocialSecurityCalculations()'><b>verifyFICASocialSecurityCalculations</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 4. Verify FICA-Social-Security Calculations when social is less than 9114 for the year 2022</td>
+<td></td>
+<td>9</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.Verify_SUI_Tax_Calculations_on_Template1_with_State()'><b>Verify_SUI_Tax_Calculations_on_Template1_with_State</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 14. Verify SUI tax calculations with martial status as 'Single' with ytdtotal as '400','800','8000','80000'<br>Parameters: Alaska</td>
+<td></td>
+<td>15</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.calculateWorkforceDevelopment()'><b>calculateWorkforceDevelopment</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 17. Verify Workforce Development tax when Gross Pay YTD total is less than 33500</td>
+<td></td>
+<td>13</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.calculateWorkforceDevelopment3()'><b>calculateWorkforceDevelopment3</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 19. Verify Workforce Development tax when Gross Pay YTD total is greater than 33500</td>
+<td></td>
+<td>11</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.VerifyStateTaxCalculationsWithAllStatesWithSingle2OnTemplate1()'><b>VerifyStateTaxCalculationsWithAllStatesWithSingle2OnTemplate1</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 11. Verify State tax calculations for all states with martial status as 'Single' with ytdtotal as '8000' and year is 2022</td>
+<td></td>
+<td>42</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.Verify_SUI_Tax_Calculations_on_Template1_with_State()'><b>Verify_SUI_Tax_Calculations_on_Template1_with_State</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 14. Verify SUI tax calculations with martial status as 'Single' with ytdtotal as '400','800','8000','80000'<br>Parameters: New Jersey</td>
+<td></td>
+<td>9</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.VerifyStateTaxCalculationsWithAllStatesWithMarriedOnTemplate1()'><b>VerifyStateTaxCalculationsWithAllStatesWithMarriedOnTemplate1</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 12. Verify State tax calculations for all states with martial status as 'Married' with ytdtotal as '8000' and year is 2022</td>
+<td></td>
+<td>392</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.Verify_FLIFLV_Tax_Calculations_on_Template1_with_State()'><b>Verify_FLIFLV_Tax_Calculations_on_Template1_with_State</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 16. Verify FLI-FLV tax calculations with martial status as 'Single' with ytdtotal as '400','800','8000','80000'</td>
+<td></td>
+<td>16</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.VerifyFederalTaxCalculationsWithMarriedOnTemplate1()'><b>VerifyFederalTaxCalculationsWithMarriedOnTemplate1</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 7.	Verify federal tax calculations with martial status as 'Married' in year '2022</td>
+<td></td>
+<td>13</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.VerifySDITaxCalculationsonTemplate1()'><b>VerifySDITaxCalculationsonTemplate1</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 13. Verify SDI tax calculations with martial status as 'Single' for the state= 'California' with ytdtotal as '400','800','8000','80000'<br>Parameters: New Jersey</td>
+<td></td>
+<td>7</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyFICAMedicareWithGrossPayYTDTotalLessThan200000()'><b>verifyFICAMedicareWithGrossPayYTDTotalLessThan200000</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 2. Verify FICA Medicare With Gross PayYTD Total Less Than 200000</td>
+<td></td>
+<td>9</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyPaystubsValues()'><b>verifyPaystubsValues</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 22. Verify the number of paystubs needed when 'How many pay periods have you worked?' is set from 22 value to 10 when 'Were you hired in the past 52 weeks?' is set to 'Yes'.</td>
+<td></td>
+<td>117</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.Verify_WC_Tax_Calculations_on_Template1_with_State()'><b>Verify_WC_Tax_Calculations_on_Template1_with_State</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 15. Verify WC tax calculations with martial status as 'Single' with ytdtotal as '400','800','8000','80000' with all 'How often you paid'</td>
+<td></td>
+<td>123</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.VerifySDITaxCalculationsonTemplate1()'><b>VerifySDITaxCalculationsonTemplate1</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 13. Verify SDI tax calculations with martial status as 'Single' for the state= 'California' with ytdtotal as '400','800','8000','80000'<br>Parameters: Rhode Island</td>
+<td></td>
+<td>7</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.calculateTotalEarnings()'><b>calculateTotalEarnings</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 20. Verify Total calculations for all type of earnings in all Templates</td>
+<td></td>
+<td>30</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyFICAMedicareWithGrossPayYTDTotalGreaterThan200000()'><b>verifyFICAMedicareWithGrossPayYTDTotalGreaterThan200000</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 3. Verify FICAMedicare With GrossPay YTDTotal Greater Than 200000</td>
+<td></td>
+<td>9</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='WebApp.BillGenrator.BillGen2022.verifyDataOfTemplateAfterLogout()'><b>verifyDataOfTemplateAfterLogout</b><br>Test class: WebApp.BillGenrator.BillGen2022<br>Test method: 47 Verify data of the saved template when logged out</td>
+<td><div><pre>java.lang.Throwable: Method BillGen2022.verifyDataOfTemplateAfterLogout()[pri:0, instance:WebApp.BillGenrator.BillGen2022@126945f9] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1621577756", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1621577756'><pre>java.lang.Throwable: Method BillGen2022.verifyDataOfTemplateAfterLogout()[pri:0, instance:WebApp.BillGenrator.BillGen2022@126945f9] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>WebApp.BillGenrator.BillGen2022@126945f9</td></tr>
+</table><p>
+</body>
+</html>

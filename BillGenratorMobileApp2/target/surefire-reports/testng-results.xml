@@ -1,0 +1,2265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="92" passed="63" failed="24" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-05T03:00:11 IST" name="StagingWeb" finished-at="2023-04-05T04:00:33 IST" duration-ms="3621684">
+    <groups>
+    </groups>
+    <test started-at="2023-04-05T03:00:11 IST" name="WebPaystubFormInChrome" finished-at="2023-04-05T04:00:33 IST" duration-ms="3621684">
+      <class name="WebApp.BillGenrator.BillGen2023">
+        <test-method is-config="true" signature="beforeeverymethodinsameclass()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:52:32 IST" name="beforeeverymethodinsameclass" finished-at="2023-04-05T03:52:36 IST" duration-ms="3972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeverymethodinsameclass -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:52:36 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:52:38 IST" duration-ms="1841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyFICAMedicareWithGrossPayYTDTotalLessThan20000()[pri:1, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:52:38 IST" name="verifyFICAMedicareWithGrossPayYTDTotalLessThan20000" description="1. Verify Fica Medicare total tax With Gross PayYTD Total equal to 40000" finished-at="2023-04-05T03:52:43 IST" duration-ms="5500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFICAMedicareWithGrossPayYTDTotalLessThan20000 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:52:43 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:52:45 IST" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyFederalWithGrossPayYTDTotal40000()[pri:1, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:52:45 IST" name="verifyFederalWithGrossPayYTDTotal40000" description="1. Verify Federal tax With Gross PayYTD Total equal to 40000" finished-at="2023-04-05T03:52:50 IST" duration-ms="5416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFederalWithGrossPayYTDTotal40000 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:52:50 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:52:52 IST" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyFICAMedicareWithGrossPayYTDTotalLessThan200000()[pri:2, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:52:52 IST" name="verifyFICAMedicareWithGrossPayYTDTotalLessThan200000" description="2. Verify FICA Medicare With Gross PayYTD Total Less Than 200000" finished-at="2023-04-05T03:52:58 IST" duration-ms="6549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFICAMedicareWithGrossPayYTDTotalLessThan200000 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:52:58 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:53:00 IST" duration-ms="1627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyFICAMedicareWithGrossPayYTDTotalGreaterThan200000()[pri:3, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:53:00 IST" name="verifyFICAMedicareWithGrossPayYTDTotalGreaterThan200000" description="3. Verify FICAMedicare With GrossPay YTDTotal Greater Than 200000" finished-at="2023-04-05T03:53:05 IST" duration-ms="4570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFICAMedicareWithGrossPayYTDTotalGreaterThan200000 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:53:05 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:53:06 IST" duration-ms="1607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyFICASocialSecurityCalculations()[pri:4, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:53:06 IST" name="verifyFICASocialSecurityCalculations" description="4. Verify FICA-Social-Security Calculations when social is less than 9114 for the year 2023" finished-at="2023-04-05T03:53:11 IST" duration-ms="4626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFICASocialSecurityCalculations -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:53:11 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:53:13 IST" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyFicaSocialSecurityCalculations()[pri:5, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:53:13 IST" name="verifyFicaSocialSecurityCalculations" description="5. Verify FICA-Social-Security Calculations when social is greater than 9114 for the year 2023 on all preview page." finished-at="2023-04-05T03:53:19 IST" duration-ms="6906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFicaSocialSecurityCalculations -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:53:19 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:53:21 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifyFederalTaxCalculationsonTemplate1()[pri:6, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:53:21 IST" name="VerifyFederalTaxCalculationsonTemplate1" description="6. Verify federal tax calculations with martial status as &#039;Single&#039;" finished-at="2023-04-05T03:53:29 IST" duration-ms="8367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFederalTaxCalculationsonTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:53:29 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:53:31 IST" duration-ms="1813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifyFederalTaxCalculationsWithMarriedOnTemplate1()[pri:7, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:53:31 IST" name="VerifyFederalTaxCalculationsWithMarriedOnTemplate1" description="7.	Verify federal tax calculations with martial status as &#039;Married&#039;" finished-at="2023-04-05T03:53:41 IST" duration-ms="9372" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [22,905.42] but found [22,905.40],
+expected [22,905.42] but found [22,905.40]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [22,905.42] but found [22,905.40],
+expected [22,905.42] but found [22,905.40]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2023.VerifyFederalTaxCalculationsWithMarriedOnTemplate1(BillGen2023.java:164)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFederalTaxCalculationsWithMarriedOnTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:53:48 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:53:49 IST" duration-ms="1597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyFederalTaxWithAllExemptions()[pri:8, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:53:49 IST" name="verifyFederalTaxWithAllExemptions" description="8. Verify Federal Tax calculations for all exemptions with maratial status as &#039;Single&#039;" finished-at="2023-04-05T03:54:12 IST" duration-ms="22601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFederalTaxWithAllExemptions -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:54:12 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:54:13 IST" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifyStateTaxCalculationsWithAllStatesOnTemplate1()[pri:9, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:54:13 IST" name="VerifyStateTaxCalculationsWithAllStatesOnTemplate1" description="9. Verify State tax calculations for all states with martial status as &#039;Married&#039; with ytdtotal as &#039;800&#039; and year is 2022" finished-at="2023-04-05T03:54:57 IST" duration-ms="43797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStateTaxCalculationsWithAllStatesOnTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:54:57 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:54:59 IST" duration-ms="1624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifyStateTaxCalculationsWithAllStatesWithSingleOnTemplate1()[pri:10, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:54:59 IST" name="VerifyStateTaxCalculationsWithAllStatesWithSingleOnTemplate1" description="10. Verify State tax calculations for all states with martial status as &#039;Single&#039; with ytdtotal as &#039;800&#039; and year is 2023" finished-at="2023-04-05T03:55:42 IST" duration-ms="43305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStateTaxCalculationsWithAllStatesWithSingleOnTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:55:42 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:55:44 IST" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifyStateTaxCalculationsWithAllStatesWithSingle2OnTemplate1()[pri:11, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:55:44 IST" name="VerifyStateTaxCalculationsWithAllStatesWithSingle2OnTemplate1" description="11. Verify State tax calculations for all states with martial status as &#039;Single&#039; with ytdtotal as &#039;8000&#039; and year is 2023" finished-at="2023-04-05T03:56:28 IST" duration-ms="43711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStateTaxCalculationsWithAllStatesWithSingle2OnTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:56:28 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:56:29 IST" duration-ms="1592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifyStateTaxCalculationsWithAllStatesWithMarriedOnTemplate1()[pri:12, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:56:29 IST" name="VerifyStateTaxCalculationsWithAllStatesWithMarriedOnTemplate1" description="12. Verify State tax calculations for all states with martial status as &#039;Married&#039; with ytdtotal as &#039;8000&#039; and year is 2023" finished-at="2023-04-05T03:57:13 IST" duration-ms="44079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStateTaxCalculationsWithAllStatesWithMarriedOnTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:57:13 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:57:15 IST" duration-ms="1604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifySDITaxCalculationsonTemplate1(java.lang.String)[pri:13, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:57:15 IST" name="VerifySDITaxCalculationsonTemplate1" description="13. Verify SDI tax calculations with martial status as &#039;Single&#039; for the state with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="sdiStates" finished-at="2023-04-05T03:57:24 IST" duration-ms="9363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySDITaxCalculationsonTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:57:24 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:57:26 IST" duration-ms="1616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifySDITaxCalculationsonTemplate1(java.lang.String)[pri:13, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:57:26 IST" name="VerifySDITaxCalculationsonTemplate1" description="13. Verify SDI tax calculations with martial status as &#039;Single&#039; for the state with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="sdiStates" finished-at="2023-04-05T03:57:35 IST" duration-ms="9283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hawaii]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySDITaxCalculationsonTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:57:35 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:57:37 IST" duration-ms="1618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifySDITaxCalculationsonTemplate1(java.lang.String)[pri:13, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:57:37 IST" name="VerifySDITaxCalculationsonTemplate1" description="13. Verify SDI tax calculations with martial status as &#039;Single&#039; for the state with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="sdiStates" finished-at="2023-04-05T03:57:46 IST" duration-ms="9288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Jersey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySDITaxCalculationsonTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:57:46 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:57:48 IST" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifySDITaxCalculationsonTemplate1(java.lang.String)[pri:13, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:57:48 IST" name="VerifySDITaxCalculationsonTemplate1" description="13. Verify SDI tax calculations with martial status as &#039;Single&#039; for the state with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="sdiStates" finished-at="2023-04-05T03:57:57 IST" duration-ms="9362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySDITaxCalculationsonTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:57:57 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:57:59 IST" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifySDITaxCalculationsonTemplate1(java.lang.String)[pri:13, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:57:59 IST" name="VerifySDITaxCalculationsonTemplate1" description="13. Verify SDI tax calculations with martial status as &#039;Single&#039; for the state with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="sdiStates" finished-at="2023-04-05T03:58:08 IST" duration-ms="9296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rhode Island]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySDITaxCalculationsonTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:58:08 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:58:10 IST" duration-ms="1660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="Verify_SUI_Tax_Calculations_on_Template1_with_State(java.lang.String)[pri:14, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:58:10 IST" name="Verify_SUI_Tax_Calculations_on_Template1_with_State" description="14. Verify SUI tax calculations with martial status as &#039;Single&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="suiStates" finished-at="2023-04-05T03:58:20 IST" duration-ms="10597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alaska]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SUI_Tax_Calculations_on_Template1_with_State -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:58:20 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:58:22 IST" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="Verify_SUI_Tax_Calculations_on_Template1_with_State(java.lang.String)[pri:14, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:58:22 IST" name="Verify_SUI_Tax_Calculations_on_Template1_with_State" description="14. Verify SUI tax calculations with martial status as &#039;Single&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="suiStates" finished-at="2023-04-05T03:58:32 IST" duration-ms="10668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Jersey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SUI_Tax_Calculations_on_Template1_with_State -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:58:32 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:58:34 IST" duration-ms="1603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="Verify_SUI_Tax_Calculations_on_Template1_with_State(java.lang.String)[pri:14, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:58:34 IST" name="Verify_SUI_Tax_Calculations_on_Template1_with_State" description="14. Verify SUI tax calculations with martial status as &#039;Single&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="suiStates" finished-at="2023-04-05T03:58:45 IST" duration-ms="10621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pennsylvania]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SUI_Tax_Calculations_on_Template1_with_State -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:58:45 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:58:46 IST" duration-ms="1596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="Verify_WC_Tax_Calculations_on_Template1_with_State()[pri:15, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:58:46 IST" name="Verify_WC_Tax_Calculations_on_Template1_with_State" description="15. Verify WC tax calculations with martial status as &#039;Single&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039; with all &#039;How often you paid&#039;" finished-at="2023-04-05T03:59:57 IST" duration-ms="70993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_WC_Tax_Calculations_on_Template1_with_State -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:59:57 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:59:59 IST" duration-ms="1811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="Verify_FLIFLV_Tax_Calculations_on_Template1_with_State()[pri:16, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T03:59:59 IST" name="Verify_FLIFLV_Tax_Calculations_on_Template1_with_State" description="16. Verify FLI-FLV tax calculations with martial status as &#039;Single&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" finished-at="2023-04-05T04:00:10 IST" duration-ms="10913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_FLIFLV_Tax_Calculations_on_Template1_with_State -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T04:00:10 IST" name="beforeEveryMethods" finished-at="2023-04-05T04:00:12 IST" duration-ms="1665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="calculateWorkforceDevelopment()[pri:17, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T04:00:12 IST" name="calculateWorkforceDevelopment" description="17. Verify Workforce Development tax when Gross Pay YTD total is less than 33500" finished-at="2023-04-05T04:00:18 IST" duration-ms="6758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateWorkforceDevelopment -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T04:00:18 IST" name="beforeEveryMethods" finished-at="2023-04-05T04:00:20 IST" duration-ms="1641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="calculateWorkforceDevelopment2()[pri:18, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T04:00:20 IST" name="calculateWorkforceDevelopment2" description="18. Verify Workforce Development tax when Gross Pay YTD total is equal to 33500" finished-at="2023-04-05T04:00:25 IST" duration-ms="5377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateWorkforceDevelopment2 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T04:00:25 IST" name="beforeEveryMethods" finished-at="2023-04-05T04:00:27 IST" duration-ms="1879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="calculateWorkforceDevelopment3()[pri:19, instance:WebApp.BillGenrator.BillGen2023@2dca0d64]" started-at="2023-04-05T04:00:27 IST" name="calculateWorkforceDevelopment3" description="19. Verify Workforce Development tax when Gross Pay YTD total is greater than 33500" finished-at="2023-04-05T04:00:33 IST" duration-ms="5427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateWorkforceDevelopment3 -->
+      </class> <!-- WebApp.BillGenrator.BillGen2023 -->
+      <class name="WebApp.BillGenrator.BillGen2022">
+        <test-method is-config="true" signature="beforeeverymethodinsameclass()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:00:11 IST" name="beforeeverymethodinsameclass" finished-at="2023-04-05T03:00:22 IST" duration-ms="11285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeverymethodinsameclass -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:00:22 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:00:24 IST" duration-ms="1866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="enterAllInputs()[pri:1, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:00:24 IST" name="enterAllInputs" description="1. Enter all the inputs in paystub form and observe the Templates1 shows all the info entered properly. in first paystub" finished-at="2023-04-05T03:01:19 IST" duration-ms="54309" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [TEST COMPANY NAME
+1-234-567-8901
+TEST COMPANY STREET ADDRESS1 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANY STREET ADDRESS2 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANYCITY,NM,65432] but found [TEST COMPANY NAME
+1-234-567-8901
+TEST COMPANY STREET ADDRESS1 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANY STREET ADDRESS2 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANYCITY,NM,65432]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [TEST COMPANY NAME
+1-234-567-8901
+TEST COMPANY STREET ADDRESS1 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANY STREET ADDRESS2 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANYCITY,NM,65432] but found [TEST COMPANY NAME
+1-234-567-8901
+TEST COMPANY STREET ADDRESS1 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANY STREET ADDRESS2 123456, TESTINNG COMPANY ADDRESS.
+TEST COMPANYCITY,NM,65432]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.enterAllInputs(BillGen2022.java:122)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAllInputs -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:01:28 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:01:29 IST" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyFICAMedicareWithGrossPayYTDTotalLessThan200000()[pri:2, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:01:29 IST" name="verifyFICAMedicareWithGrossPayYTDTotalLessThan200000" description="2. Verify FICA Medicare With Gross PayYTD Total Less Than 200000" finished-at="2023-04-05T03:01:39 IST" duration-ms="9354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFICAMedicareWithGrossPayYTDTotalLessThan200000 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:01:39 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:01:40 IST" duration-ms="1574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyFICAMedicareWithGrossPayYTDTotalGreaterThan200000()[pri:3, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:01:40 IST" name="verifyFICAMedicareWithGrossPayYTDTotalGreaterThan200000" description="3. Verify FICAMedicare With GrossPay YTDTotal Greater Than 200000" finished-at="2023-04-05T03:01:50 IST" duration-ms="9323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFICAMedicareWithGrossPayYTDTotalGreaterThan200000 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:01:50 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:01:51 IST" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyFICASocialSecurityCalculations()[pri:4, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:01:51 IST" name="verifyFICASocialSecurityCalculations" description="4. Verify FICA-Social-Security Calculations when social is less than 9114 for the year 2022" finished-at="2023-04-05T03:02:01 IST" duration-ms="9288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFICASocialSecurityCalculations -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:02:01 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:02:02 IST" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyFicaSocialSecurityCalculations()[pri:5, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:02:02 IST" name="verifyFicaSocialSecurityCalculations" description="5. Verify FICA-Social-Security Calculations when social is greater than 9114 for the year 2022 on all preview page." finished-at="2023-04-05T03:02:14 IST" duration-ms="11623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFicaSocialSecurityCalculations -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:02:14 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:02:15 IST" duration-ms="1621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifyFederalTaxCalculationsonTemplate1()[pri:6, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:02:15 IST" name="VerifyFederalTaxCalculationsonTemplate1" description="6. Verify federal tax calculations with martial status as &#039;Single&#039; year=2022" finished-at="2023-04-05T03:02:29 IST" duration-ms="13286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFederalTaxCalculationsonTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:02:29 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:02:30 IST" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifyFederalTaxCalculationsWithMarriedOnTemplate1()[pri:7, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:02:30 IST" name="VerifyFederalTaxCalculationsWithMarriedOnTemplate1" description="7.	Verify federal tax calculations with martial status as &#039;Married&#039; in year &#039;2022" finished-at="2023-04-05T03:02:44 IST" duration-ms="13435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFederalTaxCalculationsWithMarriedOnTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:02:44 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:02:45 IST" duration-ms="1589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyFederalTaxWithAllExemptions()[pri:8, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:02:45 IST" name="verifyFederalTaxWithAllExemptions" description="8. Verify Federal Tax calculations for all exemptions with maratial status as &#039;Single&#039; and &#039;Married&#039; and year&#039;2022" finished-at="2023-04-05T03:05:15 IST" duration-ms="149623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFederalTaxWithAllExemptions -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:05:15 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:05:17 IST" duration-ms="1846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifyStateTaxCalculationsWithAllStatesOnTemplate1()[pri:9, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:05:17 IST" name="VerifyStateTaxCalculationsWithAllStatesOnTemplate1" description="9. Verify State tax calculations for all states with martial status as &#039;Married&#039; with ytdtotal as &#039;800&#039; and year is 2022" finished-at="2023-04-05T03:11:53 IST" duration-ms="395815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStateTaxCalculationsWithAllStatesOnTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:11:53 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:11:54 IST" duration-ms="1875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifyStateTaxCalculationsWithAllStatesWithSingleOnTemplate1()[pri:10, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:11:54 IST" name="VerifyStateTaxCalculationsWithAllStatesWithSingleOnTemplate1" description="10. Verify State tax calculations for all states with martial status as &#039;Single&#039; with ytdtotal as &#039;800&#039; and year is 2022" finished-at="2023-04-05T03:18:27 IST" duration-ms="392746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStateTaxCalculationsWithAllStatesWithSingleOnTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:18:27 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:18:29 IST" duration-ms="1884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifyStateTaxCalculationsWithAllStatesWithSingle2OnTemplate1()[pri:11, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:18:29 IST" name="VerifyStateTaxCalculationsWithAllStatesWithSingle2OnTemplate1" description="11. Verify State tax calculations for all states with martial status as &#039;Single&#039; with ytdtotal as &#039;8000&#039; and year is 2022" finished-at="2023-04-05T03:19:11 IST" duration-ms="41793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStateTaxCalculationsWithAllStatesWithSingle2OnTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:19:11 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:19:13 IST" duration-ms="1659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifyStateTaxCalculationsWithAllStatesWithMarriedOnTemplate1()[pri:12, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:19:13 IST" name="VerifyStateTaxCalculationsWithAllStatesWithMarriedOnTemplate1" description="12. Verify State tax calculations for all states with martial status as &#039;Married&#039; with ytdtotal as &#039;8000&#039; and year is 2022" finished-at="2023-04-05T03:25:46 IST" duration-ms="393436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStateTaxCalculationsWithAllStatesWithMarriedOnTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:25:46 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:25:48 IST" duration-ms="2391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifySDITaxCalculationsonTemplate1(java.lang.String)[pri:13, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:25:48 IST" name="VerifySDITaxCalculationsonTemplate1" description="13. Verify SDI tax calculations with martial status as &#039;Single&#039; for the state= &#039;California&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="sdiStates" finished-at="2023-04-05T03:26:02 IST" duration-ms="13742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySDITaxCalculationsonTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:26:02 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:26:04 IST" duration-ms="1647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifySDITaxCalculationsonTemplate1(java.lang.String)[pri:13, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:26:04 IST" name="VerifySDITaxCalculationsonTemplate1" description="13. Verify SDI tax calculations with martial status as &#039;Single&#039; for the state= &#039;California&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="sdiStates" finished-at="2023-04-05T03:26:17 IST" duration-ms="13729" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hawaii]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The SDI Values are wrong for the state Hawaii
+expected [960.00] but found [22.04]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The SDI Values are wrong for the state Hawaii
+expected [960.00] but found [22.04]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at WebApp.BillGenrator.BillGen2022.VerifySDITaxCalculationsonTemplate1(BillGen2022.java:4418)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySDITaxCalculationsonTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:26:24 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:26:26 IST" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifySDITaxCalculationsonTemplate1(java.lang.String)[pri:13, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:26:26 IST" name="VerifySDITaxCalculationsonTemplate1" description="13. Verify SDI tax calculations with martial status as &#039;Single&#039; for the state= &#039;California&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="sdiStates" finished-at="2023-04-05T03:26:33 IST" duration-ms="7815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Jersey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySDITaxCalculationsonTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:26:33 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:26:35 IST" duration-ms="1840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifySDITaxCalculationsonTemplate1(java.lang.String)[pri:13, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:26:35 IST" name="VerifySDITaxCalculationsonTemplate1" description="13. Verify SDI tax calculations with martial status as &#039;Single&#039; for the state= &#039;California&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="sdiStates" finished-at="2023-04-05T03:26:43 IST" duration-ms="8125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySDITaxCalculationsonTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:26:43 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:26:45 IST" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="VerifySDITaxCalculationsonTemplate1(java.lang.String)[pri:13, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:26:45 IST" name="VerifySDITaxCalculationsonTemplate1" description="13. Verify SDI tax calculations with martial status as &#039;Single&#039; for the state= &#039;California&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="sdiStates" finished-at="2023-04-05T03:26:53 IST" duration-ms="7639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rhode Island]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySDITaxCalculationsonTemplate1 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:26:53 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:26:54 IST" duration-ms="1616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="Verify_SUI_Tax_Calculations_on_Template1_with_State(java.lang.String)[pri:14, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:26:54 IST" name="Verify_SUI_Tax_Calculations_on_Template1_with_State" description="14. Verify SUI tax calculations with martial status as &#039;Single&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="suiStates" finished-at="2023-04-05T03:27:09 IST" duration-ms="15054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alaska]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SUI_Tax_Calculations_on_Template1_with_State -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:27:09 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:27:11 IST" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="Verify_SUI_Tax_Calculations_on_Template1_with_State(java.lang.String)[pri:14, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:27:11 IST" name="Verify_SUI_Tax_Calculations_on_Template1_with_State" description="14. Verify SUI tax calculations with martial status as &#039;Single&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="suiStates" finished-at="2023-04-05T03:27:20 IST" duration-ms="9040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Jersey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SUI_Tax_Calculations_on_Template1_with_State -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:27:20 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:27:22 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="Verify_SUI_Tax_Calculations_on_Template1_with_State(java.lang.String)[pri:14, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:27:22 IST" name="Verify_SUI_Tax_Calculations_on_Template1_with_State" description="14. Verify SUI tax calculations with martial status as &#039;Single&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" data-provider="suiStates" finished-at="2023-04-05T03:27:31 IST" duration-ms="9006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pennsylvania]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SUI_Tax_Calculations_on_Template1_with_State -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:27:31 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:27:32 IST" duration-ms="1649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="Verify_WC_Tax_Calculations_on_Template1_with_State()[pri:15, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:27:32 IST" name="Verify_WC_Tax_Calculations_on_Template1_with_State" description="15. Verify WC tax calculations with martial status as &#039;Single&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039; with all &#039;How often you paid&#039;" finished-at="2023-04-05T03:29:37 IST" duration-ms="124402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_WC_Tax_Calculations_on_Template1_with_State -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:29:37 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:29:38 IST" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="Verify_FLIFLV_Tax_Calculations_on_Template1_with_State()[pri:16, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:29:38 IST" name="Verify_FLIFLV_Tax_Calculations_on_Template1_with_State" description="16. Verify FLI-FLV tax calculations with martial status as &#039;Single&#039; with ytdtotal as &#039;400&#039;,&#039;800&#039;,&#039;8000&#039;,&#039;80000&#039;" finished-at="2023-04-05T03:29:56 IST" duration-ms="17060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_FLIFLV_Tax_Calculations_on_Template1_with_State -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:29:56 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:29:57 IST" duration-ms="1652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="calculateWorkforceDevelopment()[pri:17, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:29:57 IST" name="calculateWorkforceDevelopment" description="17. Verify Workforce Development tax when Gross Pay YTD total is less than 33500" finished-at="2023-04-05T03:30:10 IST" duration-ms="12708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateWorkforceDevelopment -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:30:10 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:30:12 IST" duration-ms="1667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="calculateWorkforceDevelopment2()[pri:18, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:30:12 IST" name="calculateWorkforceDevelopment2" description="18. Verify Workforce Development tax when Gross Pay YTD total is equal to 33500" finished-at="2023-04-05T03:30:23 IST" duration-ms="11462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateWorkforceDevelopment2 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:30:23 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:30:25 IST" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="calculateWorkforceDevelopment3()[pri:19, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:30:25 IST" name="calculateWorkforceDevelopment3" description="19. Verify Workforce Development tax when Gross Pay YTD total is greater than 33500" finished-at="2023-04-05T03:30:36 IST" duration-ms="11420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateWorkforceDevelopment3 -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:30:36 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:30:38 IST" duration-ms="1629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="calculateTotalEarnings()[pri:20, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:30:38 IST" name="calculateTotalEarnings" description="20. Verify Total calculations for all type of earnings in all Templates" finished-at="2023-04-05T03:31:07 IST" duration-ms="29537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateTotalEarnings -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:31:07 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:31:09 IST" duration-ms="1627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyContractorTax()[pri:21, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:31:09 IST" name="verifyContractorTax" description="21. Verify Contractor does not have any tax deduction" finished-at="2023-04-05T03:31:12 IST" duration-ms="2831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContractorTax -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:31:12 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:31:13 IST" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyPaystubsValues()[pri:22, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:31:13 IST" name="verifyPaystubsValues" description="22. Verify the number of paystubs needed when &#039;How many pay periods have you worked?&#039; is set from 22 value to 10 when &#039;Were you hired in the past 52 weeks?&#039; is set to &#039;Yes&#039;." finished-at="2023-04-05T03:33:04 IST" duration-ms="110678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaystubsValues -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:33:04 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:33:06 IST" duration-ms="2020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifySalaryTotalValueMonthly()[pri:23, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:33:06 IST" name="verifySalaryTotalValueMonthly" description="23. Verify the Salary Total value With payment type as &#039;Salary&#039;. and How often you paied is set to &#039;Monthly&#039;" finished-at="2023-04-05T03:33:11 IST" duration-ms="4822" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [16.67] but found [0.83],
+Salary total calculations are getting wrong. expected [16.67] but found [0.83]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [16.67] but found [0.83],
+Salary total calculations are getting wrong. expected [16.67] but found [0.83]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueMonthly(BillGen2022.java:5289)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySalaryTotalValueMonthly -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:33:17 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:33:19 IST" duration-ms="1591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifySalaryTotalValueDaily()[pri:24, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:33:19 IST" name="verifySalaryTotalValueDaily" description="24. Verify the Salary Total value With payment type as &#039;Salary&#039;. and How often you paied is set to &#039;Daily&#039;" finished-at="2023-04-05T03:33:24 IST" duration-ms="5001" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [200.00] but found [0.04],
+Salary total calculations for 'Daily' are getting wrong. expected [200.00] but found [0.04]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [200.00] but found [0.04],
+Salary total calculations for 'Daily' are getting wrong. expected [200.00] but found [0.04]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueDaily(BillGen2022.java:5306)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySalaryTotalValueDaily -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:33:30 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:33:32 IST" duration-ms="1642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifySalaryTotalValueWeekly()[pri:25, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:33:32 IST" name="verifySalaryTotalValueWeekly" description="25. Verify the Salary Total value With payment type as &#039;Salary&#039;. and How often you paied is set to &#039;Weekly (ex: every Friday)&#039;" finished-at="2023-04-05T03:33:37 IST" duration-ms="5236" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [3.85] but found [0.19],
+Salary total calculations for 'Weekly' are getting wrong. expected [3.85] but found [0.19]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [3.85] but found [0.19],
+Salary total calculations for 'Weekly' are getting wrong. expected [3.85] but found [0.19]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueWeekly(BillGen2022.java:5323)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySalaryTotalValueWeekly -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:33:44 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:33:45 IST" duration-ms="1619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifySalaryTotalValueBiWeekly()[pri:26, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:33:45 IST" name="verifySalaryTotalValueBiWeekly" description="26. Verify the Salary Total value With payment type as &#039;Salary&#039;. and How often you paied is set to &#039;Bi-Weekly (ex: every other Wednesday)&#039;" finished-at="2023-04-05T03:33:51 IST" duration-ms="5329" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [7.69] but found [0.38],
+Salary total calculations for 'Bi-Weekly' are getting wrong. expected [7.69] but found [0.38]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [7.69] but found [0.38],
+Salary total calculations for 'Bi-Weekly' are getting wrong. expected [7.69] but found [0.38]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueBiWeekly(BillGen2022.java:5340)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySalaryTotalValueBiWeekly -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:33:57 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:33:59 IST" duration-ms="1626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifySalaryTotalValueQuarterly()[pri:28, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:33:59 IST" name="verifySalaryTotalValueQuarterly" description="28. Verify the Salary Total value With payment type as &#039;Salary&#039;. and How often you paied is set to &#039;Quarterly&#039;" finished-at="2023-04-05T03:34:04 IST" duration-ms="4963" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [50.00] but found [2.50],
+Salary total calculations for 'Quarterly' are getting wrong. expected [50.00] but found [2.50],
+expected [6250.00] but found [25000.00],
+Salary total calculations for 'Quarterly' are getting wrong. expected [6250.00] but found [25000.00]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [50.00] but found [2.50],
+Salary total calculations for 'Quarterly' are getting wrong. expected [50.00] but found [2.50],
+expected [6250.00] but found [25000.00],
+Salary total calculations for 'Quarterly' are getting wrong. expected [6250.00] but found [25000.00]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueQuarterly(BillGen2022.java:5374)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySalaryTotalValueQuarterly -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:34:10 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:34:12 IST" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifySalaryTotalValueSemiAnnually()[pri:29, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:34:12 IST" name="verifySalaryTotalValueSemiAnnually" description="29. Verify the Salary Total value With payment type as &#039;Salary&#039;. and How often you paied is set to &#039;Semi-Annually&#039;" finished-at="2023-04-05T03:34:17 IST" duration-ms="5215" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [100.00] but found [5.00],
+Salary total calculations for 'Semi-Annually' are getting wrong. expected [100.00] but found [5.00],
+expected [12500.00] but found [25000.00],
+Salary total calculations for 'Semi-Annually' are getting wrong. expected [12500.00] but found [25000.00]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [100.00] but found [5.00],
+Salary total calculations for 'Semi-Annually' are getting wrong. expected [100.00] but found [5.00],
+expected [12500.00] but found [25000.00],
+Salary total calculations for 'Semi-Annually' are getting wrong. expected [12500.00] but found [25000.00]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueSemiAnnually(BillGen2022.java:5391)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySalaryTotalValueSemiAnnually -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:34:23 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:34:25 IST" duration-ms="1669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifySalaryTotalValueAnnually()[pri:30, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:34:25 IST" name="verifySalaryTotalValueAnnually" description="30. Verify the Salary Total value With payment type as &#039;Salary&#039;. and How often you paied is set to &#039;Annually&#039;" finished-at="2023-04-05T03:34:30 IST" duration-ms="4988" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [200.00] but found [10.00],
+Salary total calculations for 'Annually' are getting wrong. expected [200.00] but found [10.00]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [200.00] but found [10.00],
+Salary total calculations for 'Annually' are getting wrong. expected [200.00] but found [10.00]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifySalaryTotalValueAnnually(BillGen2022.java:5408)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySalaryTotalValueAnnually -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:34:36 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:34:38 IST" duration-ms="2135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyGrossPayTotalInPreviousYTDCalculations()[pri:31, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:34:38 IST" name="verifyGrossPayTotalInPreviousYTDCalculations" description="31. Verify &#039;Enter in previous YTD calculations?&#039; gross paytotal value" finished-at="2023-04-05T03:34:49 IST" duration-ms="10260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGrossPayTotalInPreviousYTDCalculations -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:34:49 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:34:50 IST" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyPaystubCalculationsOnenteringPreviousYTDCalculations()[pri:32, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:34:50 IST" name="verifyPaystubCalculationsOnenteringPreviousYTDCalculations" description="32. Verify Paystub Calculations On entering Previous YTD Calculations" finished-at="2023-04-05T03:34:56 IST" depends-on-methods="WebApp.BillGenrator.BillGen2022.verifyGrossPayTotalInPreviousYTDCalculations" duration-ms="5615" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [4,000.00] but found [1,600.00],
+expected [400.00] but found [0.00],
+expected [200.00] but found [0.00],
+expected [300.00] but found [0.00],
+expected [500.00] but found [0.00],
+expected [600.00] but found [0.00],
+expected [700.00] but found [0.00],
+expected [4,000.00] but found [4,800.00],
+expected [400.00] but found [0.00],
+expected [200.00] but found [0.00],
+expected [300.00] but found [0.00],
+expected [500.00] but found [0.00],
+expected [600.00] but found [0.00],
+expected [700.00] but found [0.00]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [4,000.00] but found [1,600.00],
+expected [400.00] but found [0.00],
+expected [200.00] but found [0.00],
+expected [300.00] but found [0.00],
+expected [500.00] but found [0.00],
+expected [600.00] but found [0.00],
+expected [700.00] but found [0.00],
+expected [4,000.00] but found [4,800.00],
+expected [400.00] but found [0.00],
+expected [200.00] but found [0.00],
+expected [300.00] but found [0.00],
+expected [500.00] but found [0.00],
+expected [600.00] but found [0.00],
+expected [700.00] but found [0.00]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifyPaystubCalculationsOnenteringPreviousYTDCalculations(BillGen2022.java:5467)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaystubCalculationsOnenteringPreviousYTDCalculations -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:35:04 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:35:05 IST" duration-ms="1669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyPaystubTotalDeductions()[pri:33, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:35:05 IST" name="verifyPaystubTotalDeductions" description="33. Verify Total calculations of all the deductions with single paystub" finished-at="2023-04-05T03:35:18 IST" duration-ms="13211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaystubTotalDeductions -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:35:18 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:35:20 IST" duration-ms="1813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyPaystubPayPeriodDurations()[pri:34, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:35:20 IST" name="verifyPaystubPayPeriodDurations" description="34. Verify Pay period durations when &#039;How often are you paid?&#039; is set to &#039;Monthly&#039; " finished-at="2023-04-05T03:35:29 IST" duration-ms="8430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaystubPayPeriodDurations -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:35:29 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:35:30 IST" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyPayPeriodDurations()[pri:35, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:35:30 IST" name="verifyPayPeriodDurations" description="35. Verify Pay period durations when &#039;How often are you paid?&#039; is set to &#039;Daily&#039; " finished-at="2023-04-05T03:35:36 IST" duration-ms="5231" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [12/31/2022] but found [null],
+expected [12/31/2022] but found [null],
+expected [12/31/2022] but found [null],
+expected [02/14/2023] but found [null],
+expected [02/14/2023] but found [null],
+expected [02/14/2023] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [12/31/2022] but found [null],
+expected [12/31/2022] but found [null],
+expected [12/31/2022] but found [null],
+expected [02/14/2023] but found [null],
+expected [02/14/2023] but found [null],
+expected [02/14/2023] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurations(BillGen2022.java:5557)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPayPeriodDurations -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:35:42 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:35:44 IST" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyPayPeriodDuration()[pri:36, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:35:44 IST" name="verifyPayPeriodDuration" description="36. Verify Pay period durations when &#039;How often are you paid?&#039; is set to &#039;Weekly&#039; " finished-at="2023-04-05T03:35:49 IST" duration-ms="5195" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [12/25/2022] but found [null],
+expected [12/31/2022] but found [null],
+expected [12/31/2022] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [12/25/2022] but found [null],
+expected [12/31/2022] but found [null],
+expected [12/31/2022] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDuration(BillGen2022.java:5579)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPayPeriodDuration -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:35:55 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:35:57 IST" duration-ms="1607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyPayPeriodDurationInBiWeekly()[pri:37, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:35:57 IST" name="verifyPayPeriodDurationInBiWeekly" description="37. Verify Pay period durations when &#039;How often are you paid?&#039; is set to &#039;Bi-Weekly&#039; " finished-at="2023-04-05T03:36:02 IST" duration-ms="5265" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [12/18/2022] but found [null],
+expected [12/31/2022] but found [null],
+expected [12/31/2022] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [12/18/2022] but found [null],
+expected [12/31/2022] but found [null],
+expected [12/31/2022] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInBiWeekly(BillGen2022.java:5601)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPayPeriodDurationInBiWeekly -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:36:09 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:36:10 IST" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyPayPeriodDurationInQuarterly()[pri:39, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:36:10 IST" name="verifyPayPeriodDurationInQuarterly" description="39. Verify Pay period durations when &#039;How often are you paid?&#039; is set to &#039;Quarterly&#039; " finished-at="2023-04-05T03:36:15 IST" duration-ms="5196" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [10/02/2022] but found [null],
+expected [01/01/2023] but found [null],
+expected [01/01/2023] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [10/02/2022] but found [null],
+expected [01/01/2023] but found [null],
+expected [01/01/2023] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInQuarterly(BillGen2022.java:5645)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPayPeriodDurationInQuarterly -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:36:22 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:36:24 IST" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyPayPeriodDurationInSemiAnnually()[pri:40, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:36:24 IST" name="verifyPayPeriodDurationInSemiAnnually" description="40. Verify Pay period durations when &#039;How often are you paid?&#039; is set to &#039;Semi-Annually&#039; " finished-at="2023-04-05T03:36:31 IST" duration-ms="7901" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [07/02/2022] but found [07/01/2022],
+expected [01/01/2023] but found [12/31/2022],
+expected [01/01/2023] but found [12/31/2022]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [07/02/2022] but found [07/01/2022],
+expected [01/01/2023] but found [12/31/2022],
+expected [01/01/2023] but found [12/31/2022]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInSemiAnnually(BillGen2022.java:5668)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPayPeriodDurationInSemiAnnually -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:36:39 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:36:41 IST" duration-ms="1655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyPayPeriodDurationInAnnually()[pri:41, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:36:41 IST" name="verifyPayPeriodDurationInAnnually" description="41. Verify Pay period durations when &#039;How often are you paid?&#039; is set to &#039;Annually&#039; " finished-at="2023-04-05T03:36:43 IST" duration-ms="1855" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [12/31/2023] but found [01/01/2023],
+expected [12/31/2023] but found [01/01/2023]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [12/31/2023] but found [01/01/2023],
+expected [12/31/2023] but found [01/01/2023]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifyPayPeriodDurationInAnnually(BillGen2022.java:5680)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPayPeriodDurationInAnnually -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:36:49 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:36:51 IST" duration-ms="1609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyPdfData()[pri:42, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:36:51 IST" name="verifyPdfData" description="42. Verify the pdf file downloaded with the data added." finished-at="2023-04-05T03:39:38 IST" duration-ms="167392" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Number of pages for Paystub 1 expected [1] but found [2],
+Number of pages for Paystub 2 expected [1] but found [2],
+Employer name is not mentioned in pdf expected [true] but found [false],
+EmployerTelephoneNumber is not mentioned in pdf expected [true] but found [false],
+PaystubEmployerStreetAddress1 is not mentioned in pdf expected [true] but found [false],
+PaystubEmployerStreetAddress2 is not mentioned in pdf expected [true] but found [false],
+PaystubCompanyCity is not mentioned in pdf expected [true] but found [false],
+PaystubCompanyState is not mentioned in pdf expected [true] but found [false],
+PaystubEmployerName is not mentioned in pdf expected [true] but found [false],
+PaystubEmployeeID is not mentioned in pdf expected [true] but found [false],
+PaystubEmployeeTelephoneNumber is not mentioned in pdf expected [true] but found [false],
+PaystubEmployeeAddress1 is not mentioned in pdf expected [true] but found [false],
+PaystubEmployeeAddress2 is not mentioned in pdf expected [true] but found [false],
+PaystubEmployeeCity is not mentioned in pdf expected [true] but found [false],
+PaystubEmployeeState is not mentioned in pdf expected [true] but found [false],
+PaystubEmployeeMaritalStatus is not mentioned in pdf expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Number of pages for Paystub 1 expected [1] but found [2],
+Number of pages for Paystub 2 expected [1] but found [2],
+Employer name is not mentioned in pdf expected [true] but found [false],
+EmployerTelephoneNumber is not mentioned in pdf expected [true] but found [false],
+PaystubEmployerStreetAddress1 is not mentioned in pdf expected [true] but found [false],
+PaystubEmployerStreetAddress2 is not mentioned in pdf expected [true] but found [false],
+PaystubCompanyCity is not mentioned in pdf expected [true] but found [false],
+PaystubCompanyState is not mentioned in pdf expected [true] but found [false],
+PaystubEmployerName is not mentioned in pdf expected [true] but found [false],
+PaystubEmployeeID is not mentioned in pdf expected [true] but found [false],
+PaystubEmployeeTelephoneNumber is not mentioned in pdf expected [true] but found [false],
+PaystubEmployeeAddress1 is not mentioned in pdf expected [true] but found [false],
+PaystubEmployeeAddress2 is not mentioned in pdf expected [true] but found [false],
+PaystubEmployeeCity is not mentioned in pdf expected [true] but found [false],
+PaystubEmployeeState is not mentioned in pdf expected [true] but found [false],
+PaystubEmployeeMaritalStatus is not mentioned in pdf expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifyPdfData(BillGen2022.java:5817)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPdfData -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:39:41 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:39:43 IST" duration-ms="1798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyGrossPayTotalAndYTDTotalOnRemovingCustomEarnings()[pri:43, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:39:43 IST" name="verifyGrossPayTotalAndYTDTotalOnRemovingCustomEarnings" description="43. Verify gross payTotal and YTDTotal calculations on removing the custom earnings." finished-at="2023-04-05T03:41:50 IST" duration-ms="127459" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Custom earning total 1 is wrong expected [864.00] but found [1,152.00],
+Custom earning total 1 is wrong expected [26,760.00] but found [35,680.00],
+Gross Pay YTD Total value is wrong. expected [425,172.97] but found [434,780.97],
+Gross Pay YTD Total value is wrong. expected [424,308.97] but found [433,628.97],
+The Custom earning did not removed second time expected [true] but found [false],
+Gross Pay YTD Total value is wrong. expected [424,308.97] but found [433,628.97]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Custom earning total 1 is wrong expected [864.00] but found [1,152.00],
+Custom earning total 1 is wrong expected [26,760.00] but found [35,680.00],
+Gross Pay YTD Total value is wrong. expected [425,172.97] but found [434,780.97],
+Gross Pay YTD Total value is wrong. expected [424,308.97] but found [433,628.97],
+The Custom earning did not removed second time expected [true] but found [false],
+Gross Pay YTD Total value is wrong. expected [424,308.97] but found [433,628.97]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifyGrossPayTotalAndYTDTotalOnRemovingCustomEarnings(BillGen2022.java:5864)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGrossPayTotalAndYTDTotalOnRemovingCustomEarnings -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:41:58 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:42:00 IST" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyDeductionTotalAndDeductionYTDTotalOnRemovingCustomEarnings()[pri:44, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:42:00 IST" name="verifyDeductionTotalAndDeductionYTDTotalOnRemovingCustomEarnings" description="44. Verify gross DEDUCTION TOTAL and Deduction YTDTotal calculations on removing the custom deductions" finished-at="2023-04-05T03:43:45 IST" duration-ms="104517" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+The custom deduction 2 did not removed expected [true] but found [false],
+Deductions total value is wrong. expected [37.43] but found [60.76]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+The custom deduction 2 did not removed expected [true] but found [false],
+Deductions total value is wrong. expected [37.43] but found [60.76]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifyDeductionTotalAndDeductionYTDTotalOnRemovingCustomEarnings(BillGen2022.java:5885)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeductionTotalAndDeductionYTDTotalOnRemovingCustomEarnings -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:43:51 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:43:53 IST" duration-ms="2050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyLoginFunctionalityWithInvalidCred(java.lang.String,java.lang.String)[pri:45, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:43:53 IST" name="verifyLoginFunctionalityWithInvalidCred" description="45 Verify validation of the login module on providing invalid inputs for the login" data-provider="testLogindata" finished-at="2023-04-05T03:50:11 IST" duration-ms="377639" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Login successfull with invalid cred. expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Login successfull with invalid cred. expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at WebApp.BillGenrator.BillGen2022.verifyLoginFunctionalityWithInvalidCred(BillGen2022.java:5906)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionalityWithInvalidCred -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:17 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:50:19 IST" duration-ms="1808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyLoginFunctionalityWithInvalidCred(java.lang.String,java.lang.String)[pri:45, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:19 IST" name="verifyLoginFunctionalityWithInvalidCred" description="45 Verify validation of the login module on providing invalid inputs for the login" data-provider="testLogindata" finished-at="2023-04-05T03:50:22 IST" duration-ms="3418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionalityWithInvalidCred -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:22 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:50:25 IST" duration-ms="2660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyLoginFunctionalityWithInvalidCred(java.lang.String,java.lang.String)[pri:45, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:25 IST" name="verifyLoginFunctionalityWithInvalidCred" description="45 Verify validation of the login module on providing invalid inputs for the login" data-provider="testLogindata" finished-at="2023-04-05T03:50:28 IST" duration-ms="3345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1@gmailcom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionalityWithInvalidCred -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:28 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:50:30 IST" duration-ms="1589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyLoginFunctionalityWithInvalidCred(java.lang.String,java.lang.String)[pri:45, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:30 IST" name="verifyLoginFunctionalityWithInvalidCred" description="45 Verify validation of the login module on providing invalid inputs for the login" data-provider="testLogindata" finished-at="2023-04-05T03:50:33 IST" duration-ms="3271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1@@gmailcom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionalityWithInvalidCred -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:33 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:50:35 IST" duration-ms="1573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyLoginFunctionalityWithInvalidCred(java.lang.String,java.lang.String)[pri:45, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:35 IST" name="verifyLoginFunctionalityWithInvalidCred" description="45 Verify validation of the login module on providing invalid inputs for the login" data-provider="testLogindata" finished-at="2023-04-05T03:50:38 IST" duration-ms="3274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionalityWithInvalidCred -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:38 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:50:40 IST" duration-ms="1573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyLoginFunctionalityWithInvalidCred(java.lang.String,java.lang.String)[pri:45, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:40 IST" name="verifyLoginFunctionalityWithInvalidCred" description="45 Verify validation of the login module on providing invalid inputs for the login" data-provider="testLogindata" finished-at="2023-04-05T03:50:43 IST" duration-ms="3321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tester.marqueetest@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Marquee123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionalityWithInvalidCred -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:43 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:50:45 IST" duration-ms="1561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyLoginFunctionalityWithInvalidCred(java.lang.String,java.lang.String)[pri:45, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:45 IST" name="verifyLoginFunctionalityWithInvalidCred" description="45 Verify validation of the login module on providing invalid inputs for the login" data-provider="testLogindata" finished-at="2023-04-05T03:50:48 IST" duration-ms="3284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@com.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionalityWithInvalidCred -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:48 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:50:49 IST" duration-ms="1589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyLoginFunctionalityWithInvalidCred(java.lang.String,java.lang.String)[pri:45, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:49 IST" name="verifyLoginFunctionalityWithInvalidCred" description="45 Verify validation of the login module on providing invalid inputs for the login" data-provider="testLogindata" finished-at="2023-04-05T03:50:53 IST" duration-ms="3291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shashank.marquee@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionalityWithInvalidCred -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:53 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:50:54 IST" duration-ms="1592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyLoginFunctionalityWithInvalidCred(java.lang.String,java.lang.String)[pri:45, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:54 IST" name="verifyLoginFunctionalityWithInvalidCred" description="45 Verify validation of the login module on providing invalid inputs for the login" data-provider="testLogindata" finished-at="2023-04-05T03:50:58 IST" duration-ms="3247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tes t@t.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345 6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionalityWithInvalidCred -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:58 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:50:59 IST" duration-ms="1624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyLoginFunctionalityWithInvalidCred(java.lang.String,java.lang.String)[pri:45, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:50:59 IST" name="verifyLoginFunctionalityWithInvalidCred" description="45 Verify validation of the login module on providing invalid inputs for the login" data-provider="testLogindata" finished-at="2023-04-05T03:51:02 IST" duration-ms="3242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionalityWithInvalidCred -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:51:02 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:51:04 IST" duration-ms="1597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyPaystubTemplateWithLogin()[pri:46, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:51:04 IST" name="verifyPaystubTemplateWithLogin" description="46 Verify the template created retrives all the data saved when user is allready logged in." finished-at="2023-04-05T03:51:08 IST" duration-ms="3477" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-6KOFRV4', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b2cb6f504726c4a7783e6a90f5182a3, sendKeysToElement {id=6228da85-faa1-4ec7-af3b-bbea5189fecf, value=[Ljava.lang.CharSequence;@192ddec}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50638}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50638/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5b2cb6f504726c4a7783e6a90f5182a3)] -> id: employer_name]
+Session ID: 5b2cb6f504726c4a7783e6a90f5182a3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-6KOFRV4', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b2cb6f504726c4a7783e6a90f5182a3, sendKeysToElement {id=6228da85-faa1-4ec7-af3b-bbea5189fecf, value=[Ljava.lang.CharSequence;@192ddec}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Marquee\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50638}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50638/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5b2cb6f504726c4a7783e6a90f5182a3)] -> id: employer_name]
+Session ID: 5b2cb6f504726c4a7783e6a90f5182a3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+at WebApp.BillGenratorWebApp.Paystub.PaystubWebFormPage.enterEmployer_name(PaystubWebFormPage.java:560)
+at WebApp.BillGenrator.BillGen2022.verifyPaystubTemplateWithLogin(BillGen2022.java:5945)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaystubTemplateWithLogin -->
+        <test-method signature="verifyDataOfTemplateAfterLogout()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:51:14 IST" name="verifyDataOfTemplateAfterLogout" description="47 Verify data of the saved template when logged out" finished-at="2023-04-05T03:51:14 IST" depends-on-methods="WebApp.BillGenrator.BillGen2022.verifyPaystubTemplateWithLogin" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method WebApp.BillGenrator.BillGen2022.verifyDataOfTemplateAfterLogout() on instance WebApp.BillGenrator.BillGen2022@37091312 depends on not successfully finished methods 
+[WebApp.BillGenrator.BillGen2022.verifyPaystubTemplateWithLogin() on instance WebApp.BillGenrator.BillGen2022@37091312]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method WebApp.BillGenrator.BillGen2022.verifyDataOfTemplateAfterLogout() on instance WebApp.BillGenrator.BillGen2022@37091312 depends on not successfully finished methods 
+[WebApp.BillGenrator.BillGen2022.verifyPaystubTemplateWithLogin() on instance WebApp.BillGenrator.BillGen2022@37091312]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDataOfTemplateAfterLogout -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:51:14 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:51:16 IST" duration-ms="1584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyGmail()[pri:48, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:51:16 IST" name="verifyGmail" description="48 Verify the saved template data from acceccing the gmail link" finished-at="2023-04-05T03:52:11 IST" duration-ms="54940" status="FAIL">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at com.google.api.services.gmail.Gmail$Builder.build(Gmail.java:11221)
+at GmailCall.GMail.getService(GMail.java:108)
+at GmailCall.GMail.getGmailData(GMail.java:159)
+at GmailCall.GMail.getMailData(GMail.java:275)
+at WebApp.BillGenrator.BillGen2022.verifyGmail(BillGen2022.java:6799)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.IllegalStateException: You are currently running with version 2.0.0 of google-api-client. You need at least version 1.31.1 of google-api-client to run version 1.32.1 of the Gmail API library.
+at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+at com.google.api.client.util.Preconditions.checkState(Preconditions.java:113)
+at com.google.api.services.gmail.Gmail.<clinit>(Gmail.java:44)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGmail -->
+        <test-method is-config="true" signature="beforeEveryMethods()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:52:18 IST" name="beforeEveryMethods" finished-at="2023-04-05T03:52:20 IST" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethods -->
+        <test-method signature="verifyForgotPasswordFunctionality()[pri:49, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T03:52:20 IST" name="verifyForgotPasswordFunctionality" description="49 Verify the forgot password functionality with valid input" finished-at="2023-04-05T03:52:25 IST" duration-ms="5502" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[Could not initialize class com.google.api.services.gmail.Gmail]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: Could not initialize class com.google.api.services.gmail.Gmail
+at com.google.api.services.gmail.Gmail$Builder.build(Gmail.java:11221)
+at GmailCall.GMail.getService(GMail.java:108)
+at GmailCall.GMail.getGmailData(GMail.java:159)
+at GmailCall.GMail.getMailData(GMail.java:275)
+at WebApp.BillGenrator.BillGen2022.verifyForgotPasswordFunctionality(BillGen2022.java:7163)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordFunctionality -->
+        <test-method is-config="true" signature="afterAllMehtodsOfSameClass()[pri:0, instance:WebApp.BillGenrator.BillGen2022@37091312]" started-at="2023-04-05T04:00:33 IST" name="afterAllMehtodsOfSameClass" finished-at="2023-04-05T04:00:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllMehtodsOfSameClass -->
+      </class> <!-- WebApp.BillGenrator.BillGen2022 -->
+    </test> <!-- WebPaystubFormInChrome -->
+  </suite> <!-- StagingWeb -->
+</testng-results>

@@ -1,0 +1,4 @@
+# Created at 2023-03-13T15:51:59.755
+Boot Manifest-JAR contains absolute paths in classpath 'D:\ShashankWork\Marquee Workspace\Marquee Solutions Work\Automation 2\BillGenratorMobileApp2\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

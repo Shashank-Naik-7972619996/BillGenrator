@@ -1,0 +1,37 @@
+package Paystub;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class PaystubMain {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+ 
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Desktop\\Marquee Solutions Work\\Automation\\From PD\\Selenium_Appium\\Webdrivers\\chromedriver.exe");
+		WebDriver driver =new ChromeDriver();
+		driver.get("https://staging.paystubsnow.com/make-your-paystub");
+	
+		//WebElement autodriver = driver.findElement(By.id("auto_calc"));
+		//Select auto =new Select(autodriver);
+		//auto.selectByValue("off");
+		//System.out.println(auto.getFirstSelectedOption().getText());
+		Select stub_periods = new Select(driver.findElement(By.id("stub_periods")));
+		String NumberOfPaystub = "9";
+		WebDriverWait wait = new WebDriverWait(driver, 50000);
+		stub_periods.selectByValue(NumberOfPaystub);
+		wait.until(ExpectedConditions.textToBePresentInElementValue(driver.findElement(By.id("stub_periods")), NumberOfPaystub));
+		
+		List<WebElement> paystubForms = driver.findElements(By.xpath("//div[@class='wp-psn-stub']"));
+		wait.until(ExpectedConditions.visibilityOfAllElements(paystubForms));
+		//Thread.sleep(6000);
+		System.out.println("Number of paystubs: " + paystubForms.size());
+	}
+}

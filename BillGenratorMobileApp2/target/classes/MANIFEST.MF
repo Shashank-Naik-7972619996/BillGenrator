@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BillGenratorMobileApp2
+Bundle-SymbolicName: BillGenratorMobileApp2
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: BillGenratorMobileApp2
+Export-Package: MobileApp.BillGenratorMobileApp2.PageObject.Android,
+ MobileApp.BillGenratorMobileApp2.PageObject.Android.InvoiceForm,
+ MobileApp.BillGenratorMobileApp2.PageObject.Android.Misc1099,
+ MobileApp.BillGenratorMobileApp2.PageObject.Android.UtilityForm,
+ MobileApp.BillGenratorMobileApp2.PageObject.Android.W2Form,
+ MobileApp.BillGenratorMobileApp2.Utils,
+ MobileApp.dataResource,
+ base,
+ mobileApp.BillGenrator

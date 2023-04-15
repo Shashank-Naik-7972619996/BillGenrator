@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [StagingWeb]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="base.Listeners"/>
+  </listeners>
+  <test thread-count="1" name="WebPaystubFormInChrome(failed)">
+    <classes>
+      <class name="WebApp.BillGenrator.BillGen2022">
+        <methods>
+          <include name="verifyPayPeriodDurationInQuarterly"/>
+          <include name="verifySalaryTotalValueDaily"/>
+          <include name="verifySalaryTotalValueQuarterly"/>
+          <include name="verifyPayPeriodDurations"/>
+          <include name="verifyPdfData"/>
+          <include name="verifySalaryTotalValueSemiAnnually"/>
+          <include name="enterAllInputs"/>
+          <include name="verifyLoginFunctionalityWithInvalidCred" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
+          <include name="verifyPayPeriodDurationInAnnually"/>
+          <include name="verifyPayPeriodDurationInBiWeekly"/>
+          <include name="verifyGmail"/>
+          <include name="verifyGrossPayTotalAndYTDTotalOnRemovingCustomEarnings"/>
+          <include name="verifyPaystubTemplateWithLogin"/>
+          <include name="verifyPayPeriodDuration"/>
+          <include name="verifyPayPeriodDurationInSemiAnnually"/>
+          <include name="afterAllMehtodsOfSameClass"/>
+          <include name="beforeeverymethodinsameclass"/>
+          <include name="verifySalaryTotalValueAnnually"/>
+          <include name="verifySalaryTotalValueMonthly"/>
+          <include name="verifySalaryTotalValueBiWeekly"/>
+          <include name="verifyPaystubCalculationsOnenteringPreviousYTDCalculations"/>
+          <include name="VerifySDITaxCalculationsonTemplate1" invocation-numbers="1"/>
+          <include name="beforeEveryMethods"/>
+          <include name="verifyGrossPayTotalInPreviousYTDCalculations"/>
+          <include name="verifyDataOfTemplateAfterLogout"/>
+          <include name="verifyDeductionTotalAndDeductionYTDTotalOnRemovingCustomEarnings"/>
+          <include name="verifyForgotPasswordFunctionality"/>
+          <include name="verifySalaryTotalValueWeekly"/>
+        </methods>
+      </class> <!-- WebApp.BillGenrator.BillGen2022 -->
+    </classes>
+  </test> <!-- WebPaystubFormInChrome(failed) -->
+</suite> <!-- Failed suite [StagingWeb] -->

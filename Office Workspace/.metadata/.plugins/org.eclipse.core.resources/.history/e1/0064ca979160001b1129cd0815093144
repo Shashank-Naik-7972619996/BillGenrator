@@ -1,0 +1,31 @@
+package Tests;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+
+public class Assignment1 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Desktop\\Marquee Solutions Work\\Automation\\From PD\\Selenium_Appium\\Webdrivers\\geckodriver.exe");
+		WebDriver driver =new FirefoxDriver();
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+		
+		driver.findElement(By.id("checkBoxOption1")).click();
+		System.out.println(driver.findElement(By.id("checkBoxOption1")).isSelected());
+		Assert.assertTrue(driver.findElement(By.id("checkBoxOption1")).isSelected());
+		
+		//driver.findElement(By.id("checkBoxOption1")).click();
+		//System.out.println(driver.findElement(By.id("checkBoxOption1")).isSelected());
+		//Assert.assertFalse(driver.findElement(By.id("checkBoxOption1")).isSelected());
+		
+		System.out.println(driver.findElements(By.xpath("//*[@type='checkbox']")).size());
+		//Thread.sleep(6000);
+		//driver.quit();
+	}
+
+}

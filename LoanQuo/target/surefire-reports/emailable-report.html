@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">15,983</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">LoanQuoTest.LoanQuo.LoginPageTest</td><td><a href="#m0">Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages</a></td><td rowspan="2">1646375026849</td><td rowspan="2">288</td></tr><tr class="failedeven"><td><a href="#m1">Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages</a></td></tr><tr class="failedeven"><td><a href="#m2">Verify_validations_on_Login_When_No_Values_Entered</a></td><td rowspan="1">1646375024264</td><td rowspan="1">324</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">LoanQuoTest.LoanQuo.LoginPageTest</td><td><a href="#m3">Check_Password_AstrickByDefault</a></td><td rowspan="1">1646375027337</td><td rowspan="1">99</td></tr><tr class="passedeven"><td><a href="#m4">Verify_Company_Name_and_Year_Of_The_Login_Page</a></td><td rowspan="1">1646375024113</td><td rowspan="1">144</td></tr><tr class="passedeven"><td><a href="#m5">Verify_Eye_Toggle_ButtonFunctionality</a></td><td rowspan="1">1646375027439</td><td rowspan="1">118</td></tr><tr class="passedeven"><td><a href="#m6">Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages</a></td><td rowspan="5">1646375025955</td><td rowspan="5">269</td></tr><tr class="passedeven"><td><a href="#m7">Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages</a></td></tr><tr class="passedeven"><td><a href="#m8">Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages</a></td></tr><tr class="passedeven"><td><a href="#m9">Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages</a></td></tr><tr class="passedeven"><td><a href="#m10">Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages</a></td></tr><tr class="passedeven"><td><a href="#m11">Verify_Login_With_Valid_Inputs</a></td><td rowspan="1">1646375027558</td><td rowspan="1">4234</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">LoanQuoTest.LoanQuo.LoginPageTest#Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>marqueetest@gmailcom</td><td>admin$%%</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [please enter valid email.] but found []
+	at LoanQuoTest.LoanQuo.LoginPageTest.Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages(LoginPageTest.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">LoanQuoTest.LoanQuo.LoginPageTest#Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td> </td><td> </td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [Atleast 6 characters.] but found [Atleast 6 characters]
+	at LoanQuoTest.LoanQuo.LoginPageTest.Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages(LoginPageTest.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">LoanQuoTest.LoanQuo.LoginPageTest#Verify_validations_on_Login_When_No_Values_Entered</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [Please enter password.] but found [Please enter password]
+	at LoanQuoTest.LoanQuo.LoginPageTest.Verify_validations_on_Login_When_No_Values_Entered(LoginPageTest.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">LoanQuoTest.LoanQuo.LoginPageTest#Check_Password_AstrickByDefault</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">LoanQuoTest.LoanQuo.LoginPageTest#Verify_Company_Name_and_Year_Of_The_Login_Page</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">LoanQuoTest.LoanQuo.LoginPageTest#Verify_Eye_Toggle_ButtonFunctionality</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">LoanQuoTest.LoanQuo.LoginPageTest#Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>@marqueetest14</td><td>@##$@#$</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">LoanQuoTest.LoanQuo.LoginPageTest#Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>marqueetest14</td><td>123456</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">LoanQuoTest.LoanQuo.LoginPageTest#Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>@marqueetest14@gmail.com</td><td>1236@##</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">LoanQuoTest.LoanQuo.LoginPageTest#Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>marqueetest14gmail.com</td><td>123456</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">LoanQuoTest.LoanQuo.LoginPageTest#Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>@marqueetest14@</td><td>12345ADF</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">LoanQuoTest.LoanQuo.LoginPageTest#Verify_Login_With_Valid_Inputs</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

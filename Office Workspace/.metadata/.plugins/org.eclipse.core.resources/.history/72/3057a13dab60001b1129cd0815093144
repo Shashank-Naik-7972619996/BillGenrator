@@ -1,0 +1,18 @@
+package Paystub;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class PaystubMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ 
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Desktop\\Marquee Solutions Work\\Automation\\From PD\\Selenium_Appium\\Webdrivers\\geckodriver.exe");
+		WebDriver chrome =new ChromeDriver();
+		chrome.get("https://staging.paystubsnow.com/make-your-paystub/");
+		
+	}
+
+}

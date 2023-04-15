@@ -1,0 +1,6 @@
+19:10:48.925 [TestNG-tests-1] INFO  Resources.Base1 - Text is displayed as expected
+19:10:48.972 [TestNG-tests-1] INFO  Resources.Base1 - Text is displayed as expected
+19:13:29.273 [TestNG-tests-2] INFO  Resources.Base1 - Nevigation bar is displayed as expected
+19:13:29.279 [TestNG-tests-1] INFO  Resources.Base1 - Text is displayed as expected
+19:13:29.339 [TestNG-tests-1] INFO  Resources.Base1 - Text is displayed as expected
+19:13:29.848 [TestNG-tests-3] INFO  Resources.Base1 - Landing page loaded

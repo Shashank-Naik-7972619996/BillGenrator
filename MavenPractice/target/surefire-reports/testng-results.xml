@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-10T22:35:38 IST" name="Suite" finished-at="2021-09-10T22:35:38 IST" duration-ms="62">
+    <groups>
+    </groups>
+    <test started-at="2021-09-10T22:35:38 IST" name="Test" finished-at="2021-09-10T22:35:38 IST" duration-ms="62">
+      <class name="ForPractice.MavenPractice.RestAPITest">
+        <test-method signature="RestAPITest1()[pri:0, instance:ForPractice.MavenPractice.RestAPITest@2abf4075]" started-at="2021-09-10T22:35:38 IST" name="RestAPITest1" finished-at="2021-09-10T22:35:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAPITest1 -->
+        <test-method signature="RestAPITest2()[pri:0, instance:ForPractice.MavenPractice.RestAPITest@2abf4075]" started-at="2021-09-10T22:35:38 IST" name="RestAPITest2" finished-at="2021-09-10T22:35:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAPITest2 -->
+      </class> <!-- ForPractice.MavenPractice.RestAPITest -->
+      <class name="ForPractice.MavenPractice.AppiumTest">
+        <test-method signature="Appium1()[pri:0, instance:ForPractice.MavenPractice.AppiumTest@4ef37659]" started-at="2021-09-10T22:35:38 IST" name="Appium1" finished-at="2021-09-10T22:35:38 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appium1 -->
+        <test-method signature="Appium2()[pri:0, instance:ForPractice.MavenPractice.AppiumTest@4ef37659]" started-at="2021-09-10T22:35:38 IST" name="Appium2" finished-at="2021-09-10T22:35:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appium2 -->
+      </class> <!-- ForPractice.MavenPractice.AppiumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

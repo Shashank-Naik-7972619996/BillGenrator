@@ -1,0 +1,5 @@
+# Created at 2022-12-27T16:49:51.496
+Boot Manifest-JAR contains absolute paths in classpath 'D:\ShashankWork\Marquee Workspace\Marquee Solutions Work\Automation 2\BillGenratorMobileApp2\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

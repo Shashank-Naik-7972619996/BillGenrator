@@ -1,0 +1,10 @@
+package Paystub;
+
+public class PaystubMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

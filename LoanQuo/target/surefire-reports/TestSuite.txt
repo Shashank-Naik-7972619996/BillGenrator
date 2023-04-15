@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 17.993 s <<< FAILURE! - in TestSuite
+Verify_validations_on_Login_When_No_Values_Entered(LoanQuoTest.LoanQuo.LoginPageTest)  Time elapsed: 0.679 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Please enter password.] but found [Please enter password]
+	at LoanQuoTest.LoanQuo.LoginPageTest.Verify_validations_on_Login_When_No_Values_Entered(LoginPageTest.java:92)
+
+Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages(LoanQuoTest.LoanQuo.LoginPageTest)  Time elapsed: 0.538 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Atleast 6 characters.] but found [Atleast 6 characters]
+	at LoanQuoTest.LoanQuo.LoginPageTest.Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages(LoginPageTest.java:74)
+
+Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages(LoanQuoTest.LoanQuo.LoginPageTest)  Time elapsed: 0.599 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [please enter valid email.] but found []
+	at LoanQuoTest.LoanQuo.LoginPageTest.Verify_Login_With_All_Invalid_Inputs_Along_With_Validation_messages(LoginPageTest.java:74)
+

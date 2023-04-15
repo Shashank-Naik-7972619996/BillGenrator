@@ -1,0 +1,4 @@
+pageObjects\portalLoginPage.class
+LoanQuoTest\LoanQuo\App.class
+resources\Base.class
+pageObjects\forgotPasswordPage.class

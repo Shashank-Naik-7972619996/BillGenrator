@@ -1,0 +1,4 @@
+# Created at 2021-09-10T22:34:50.911
+Boot Manifest-JAR contains absolute paths in classpath 'D:\ShashankWork\Marquee Workspace\Marquee Solutions Work\Automation\Automation Projects\MavenPractice\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

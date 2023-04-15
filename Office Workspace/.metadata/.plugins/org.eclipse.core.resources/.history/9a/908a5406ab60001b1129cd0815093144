@@ -1,0 +1,3 @@
+module Paystubsnow {
+	requires okio;
+}

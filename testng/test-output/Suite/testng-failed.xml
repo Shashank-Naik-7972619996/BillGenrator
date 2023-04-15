@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Guru 99 Smoke Test Demo(failed)">
+    <groups>
+      <run>
+        <include name="strong_ties"/>
+        <include name="bonding"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.group.guru99.TC_Class1">
+        <methods>
+          <include name="tc02VerifyLaunchPage"/>
+        </methods>
+      </class> <!-- com.group.guru99.TC_Class1 -->
+    </classes>
+  </test> <!-- Guru 99 Smoke Test Demo(failed) -->
+</suite> <!-- Failed suite [Suite] -->

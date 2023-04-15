@@ -1,0 +1,7 @@
+13:01:03.459 [TestNG-tests-3] DEBUG Resources.Base1 - Login page opens
+13:01:04.253 [TestNG-tests-3] INFO  Resources.Base1 - data entered
+13:01:06.172 [TestNG-tests-3] INFO  Resources.Base1 - Landing page loaded
+13:01:06.819 [TestNG-tests-3] DEBUG Resources.Base1 - Login page opens
+13:01:07.397 [TestNG-tests-3] INFO  Resources.Base1 - data entered
+12:51:46.534 [TestNG-tests-2] INFO  Resources.Base1 - Nevigation bar is displayed as expected
+12:51:47.646 [TestNG-tests-1] INFO  Resources.Base1 - Text is displayed as expected
